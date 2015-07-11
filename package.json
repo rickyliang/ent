@@ -1,0 +1,32 @@
+{
+  "name": "ent",
+  "version": "0.0.0",
+  "description": "The tree of JSON.",
+  "homepage": "https://github.com/rickyliang/ent",
+  "repository": "rickyliang/ent",
+  "author": {
+    "name": "Amy Shu, Ricky Liang",
+    "email": "",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "./lib/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^0.8.0",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-jscs": "^1.1.0",
+    "gulp-jshint": "^1.5.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "jshint-stylish": "^1.0.0",
+    "gulp-babel": "^5.1.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "private": true
+}
