@@ -28,5 +28,10 @@
   "scripts": {
     "test": "gulp"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "express": "^4.13.1",
+    "geo-distance": "^0.1.2",
+    "polyline": "^0.1.0"
+  }
 }
