@@ -378,6 +378,7 @@ function drawBoxes(boxes) {
 // Draw the array of boxes as polylines on the map
 function drawBoxesLOL(boxes) {
   boxpolys = new Array(boxes.length);
+  var x = 0;
   for (var i = 0; i < boxes.length; i++) {
     var box = new google.maps.LatLngBounds(
       new google.maps.LatLng(boxes[i].sw._lat, boxes[i].sw._lng),
@@ -385,12 +386,14 @@ function drawBoxesLOL(boxes) {
     );
     boxpolys[i] = new google.maps.Rectangle({
       bounds: box,
-      fillOpacity: 0,
+      fillOpacity: x,
+      fillColor: '#0000ff',
       strokeOpacity: 1.0,
       strokeColor: '#000000',
       strokeWeight: 1,
       map: map
     });
+    x += 1/boxes.length;
   }
 }
 
