@@ -32,6 +32,10 @@
   "dependencies": {
     "express": "^4.13.1",
     "geo-distance": "^0.1.2",
-    "polyline": "^0.1.0"
+    "geocoder": "^0.2.2",
+    "google-distance-matrix": "0.0.3",
+    "polyline": "^0.1.0",
+    "promise": "^7.0.3",
+    "yelp": "^0.2.0"
   }
 }
