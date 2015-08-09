@@ -36,6 +36,7 @@
     "google-distance-matrix": "0.0.3",
     "polyline": "^0.1.0",
     "promise": "^7.0.3",
+    "underscore": "^1.8.3",
     "yelp": "^0.2.0"
   }
 }
